@@ -8,8 +8,8 @@
     </div>
     <div class="movieCard__information">
       <h2 class="movieCard__title">{{ title }}</h2>
-      <p>Ranking {{ ranking }}</p>
-      <p>Release Date {{ release }}</p>
+      <p>Release Date: {{ new Date(release).toDateString() }}</p>
+      <p><i class="fas fa-star"></i> {{ ranking }}</p>
       <p>Description {{ description }}</p>
     </div>
   </div>
