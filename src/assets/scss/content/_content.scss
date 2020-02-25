@@ -8,4 +8,7 @@
     grid-template-areas: ". .";
     grid-gap: 25px 25px;
   }
+  &--hideSidebar {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

@@ -2,7 +2,7 @@
   <main class="main" :class="{ 'main--hideSidebar' : hide }">
     <Header @toggle="hideSidebar" />
     <Sidebar />
-    <MainContent />
+    <MainContent :class="{ 'content--hideSidebar' : hide }"/>
   </main>
 </template>
 
