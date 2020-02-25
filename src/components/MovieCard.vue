@@ -1,13 +1,17 @@
 <template>
-  <div class="card">
-    <p>Ranking {{ ranking }}</p>
-    <p>Title {{ title }}</p>
-    <p>Release Date {{ release }}</p>
-    <p>Description {{ description }}</p>
-    <img
+  <div class="movieCard">
+    <div class="movieCard__image">
+      <img
       :src="'https://image.tmdb.org/t/p/w500/' + image"
       alt=""
     >
+    </div>
+    <div class="movieCard__information">
+      <h2 class="movieCard__title">{{ title }}</h2>
+      <p>Ranking {{ ranking }}</p>
+      <p>Release Date {{ release }}</p>
+      <p>Description {{ description }}</p>
+    </div>
   </div>
 </template>
 

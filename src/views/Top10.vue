@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <h1>Top 10</h1>
+  <section class="content content--top10">
     <MovieCard
       v-for="movie in movies"
       :key="movie.title"
@@ -10,7 +9,7 @@
       :description="movie.description"
       :image="movie.image"
     />
-  </div>
+  </section>
 </template>
 
 <script>
