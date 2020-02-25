@@ -11,9 +11,9 @@
 </style>
 
 <script>
-import Header from './components/Header'
-import Sidebar from './components/Sidebar'
-import MainContent from './components/MainContent'
+import Header from '@/components/Header'
+import Sidebar from '@/components/Sidebar'
+import MainContent from '@/components/MainContent'
 export default {
   components: { MainContent, Sidebar, Header }
 }
