@@ -1,0 +1,6 @@
+.sidebar {
+  grid-area: sidebar;
+  &__link {
+    display: block;
+  }
+}
