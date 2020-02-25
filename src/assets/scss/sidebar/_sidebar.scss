@@ -19,4 +19,7 @@
       color: $active-link;
     }
   }
+  &--hideSidebar {
+    display: none;
+  }
 }

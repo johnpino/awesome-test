@@ -1,7 +1,7 @@
 <template>
   <main class="main" :class="{ 'main--hideSidebar' : hide }">
     <Header @toggle="hideSidebar" />
-    <Sidebar />
+    <Sidebar :class="{ 'sidebar--hideSidebar' : hide }"/>
     <MainContent :class="{ 'content--hideSidebar' : hide }"/>
   </main>
 </template>
