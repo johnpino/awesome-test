@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <h1 class="header__title">The Awesome Movie App</h1>
+    <h1 class="header__title"><i class="fad fa-ticket-alt"></i> The Awesome Movie App <i class="fad fa-ticket-alt"></i></h1>
   </header>
 </template>
 
