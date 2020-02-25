@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <img src="https://www.placehold.it/150x50" alt="">
+    <h1 class="header__title">The Awesome Movie App</h1>
   </header>
 </template>
 
