@@ -10,7 +10,7 @@ export default {
   name: 'Header',
   methods: {
     toggleContent () {
-      console.log('click')
+      this.$emit('toggle', 'true')
     }
   }
 }
