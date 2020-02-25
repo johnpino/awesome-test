@@ -1,5 +1,5 @@
 <template>
-  <section class="content content--top10">
+  <section class="content content--cards">
     <MovieCard
       v-for="movie in movies"
       :key="movie.title"

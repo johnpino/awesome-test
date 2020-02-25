@@ -1,12 +1,19 @@
 .content {
   grid-area: content;
   padding: 2em;
-  &--top10 {
+  &--cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-template-areas: ". .";
     grid-gap: 25px 25px;
+  }
+  &--home {
+    text-align: center;
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
   }
   &--hideSidebar {
     grid-template-columns: repeat(3, 1fr);
